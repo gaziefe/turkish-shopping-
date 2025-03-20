@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Специальные предложения!</h1>
+        <nav>
+            <ul>
+                <li><a href="#special-offers">Özel Teklifler</a></li>
+                <li><a href="#categories">Категории</a></li>
+                <li><a href="#cart">Крозина</a></li>
+                <li><a href="#login">Авторизоваться</a></li>
+                <li><a href="#register">Заренистрироваться</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="special-offers">
+        <h2>Специальные предложения</h2>
+        <ul>
+            <li>Полежав Стайсы Сучук к - 850 ₽ <s>1800 ₽</s></li>
+            <li>Холодный чай Listen со вкусом персика - 1890 ₽ <s>2000 ₽</s></li>
+            <li>Камью Капитал - 800 ₽ <s>1100 ₽</s></li>
+        </ul>
+        <img src="images/offer1.png" alt="Özel Teklif 1">
+        <img src="images/offer2.png" alt="Özel Teklif 2">
+    </section>
+
+    <section id="categories">
+        <h2>Категории</h2>
+        <ul>
+            <li>Фрукты, Овощи</li>
+            <li>Мясо, Курица, Рыба</li>
+            <li>Молоко, Завтрак</li>
+            <li>Напиток</li>
+        </ul>
+    </section>
+
+    <section id="cart">
+        <h2>Крозина</h2>
+        <ul>
+            <li>График Скайса Сучума - 100%</li>
+        </ul>
+        <button>Продолжать</button>
+    </section>
+
+    <section id="login">
+        <h2>Авторизоваться</h2>
+        <form>
+            <label for="phone">номер телефона</label>
+            <input type="text" id="phone" name="phone" placeholder="+1">
+            <button type="submit">Авторизоваться</button>
+        </form>
+    </section>
+
+    <section id="register">
+        <h2>Заренистрироваться</h2>
+        <form>
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" name="email">
+            <button type="submit">Заренистрироваться</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>БЕСПЛАТНАЯ ДОСТАВКА при покупке на сумму от 1000 рублей</p>
+    </footer>
+</body>
+</html>
